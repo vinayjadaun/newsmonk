@@ -1,0 +1,30 @@
+
+.navcontainer{
+
+ top: 0px;
+}
+.navbar{
+  
+ width: 100vw;
+ background-color: rgb(255, 255, 255);
+ color: aliceblue;
+ position: static;
+ top: 0px;
+ z-index: 2;
+ 
+}
+@media only screen and (min-width: 320px) {
+.navbar{
+  position: fixed;
+}
+}
+
+
+.logo img{
+  width: 200px;
+}
+.collapse{
+   margin-left: 150px;
+}
+
+
